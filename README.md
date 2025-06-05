@@ -1,17 +1,17 @@
 markdown
-Portfólio - Guilherme
+Access the site - Guilherme
 
-Este é meu portfólio como desenvolvedor em formação. Aqui apresento um pouco sobre mim, minhas habilidades e formas de contato.
+This is my portfolio as a developing developer. Here I present a little bit about myself, my skills, and ways to contact me.
+Technologies used
 
-Tecnologias utilizadas
 - HTML
 - CSS
 - JavaScript
 
-Acesse o site
+Access the site
 [https://omanogan.github.io/Gui-Programa](https://omanogan.github.io/Gui-Programa)
 
-Contato
+Contact
 - GitHub: [omanogam](https://github.com/omanogam)
-- Discord: [Entrar](https://discord.gg/KvaejSmF)
+- Discord: [to enter](https://discord.gg/KvaejSmF)
 - 
