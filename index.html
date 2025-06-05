@@ -1,34 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio do Gui</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio • Guilherme - Desenvolvedor</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    h1 {
+      font-family: 'Notable', sans-serif;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Gui • Desenvolvedor</h1>
-    <p>Transformando ideias em códigos</p>
-  </header>
+  
+<header>
+  <div class="banner-container">
+    <img class="banner-img" src="https://i.pinimg.com/736x/80/7a/1a/807a1a2700bd768a03f50c29d29289f8.jpg" alt="Banner" />
+    <h1>PAVÃO</h1>
+  </div>
+</header>
 
-  <section class="sobre">
-    <h2>Sobre mim</h2>
-    <p>Sou apaixonado por tecnologia e estou começando minha jornada na programação.</p>
-  </section>
 
-  <section class="projetos">
-    <h2>Projetos</h2>
-    <ul>
-      <li>Calculadora simples em JavaScript</li>
-      <li>Entre outros</li>
-    </ul>
+  <section class="sobre" data-aos="fade-up" data-aos-duration="600">
+    <h2>SOBRE MIM</h2>
+    <p>Sou um desenvolvedor em formação, focado em criar soluções funcionais e criativas através da programação.</p>
   </section>
-
-  <section class="contato">
-    <h2>Contato</h2>
-    <p>Email: guiprogramaATgmail.com</p>
-    <p>GitHub: Em criação</p></p>
+<section class="contato" data-aos="fade-up" data-aos-duration="600">
+    <h2>CONTATO</h2>
+    <p>GiTHUB: <a href="https://github.com/omanogam" target="_blank" rel="noopener noreferrer">omanogam</a></p>
+    <p>DiSCORD: <a href="https://discord.gg/KvaejSmF" target="_blank" rel="noopener noreferrer">Entrar no Discord</a></p>
+  </section>
+<section class="skills" data-aos="fade-up" data-aos-duration="700">
+    <h2>HABILIDADES</h2>
+    <div class="skill">
+      <span>HTML</span>
+      <div class="skill-bar">
+        <div class="skill-level html"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <span>CSS</span>
+      <div class="skill-bar">
+        <div class="skill-level css"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="skill-bar">
+        <div class="skill-level js"></div>
+      </div>
+    </div>
   </section>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
+
+
+  
+
